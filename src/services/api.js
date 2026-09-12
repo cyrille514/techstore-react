@@ -3,22 +3,22 @@ const CUSTOM_PRODUCTS = [
   // --- Portátiles ---
   { 
     nombre: 'MacBook Pro 16" M3', 
-    precio: 2499, 
-    stock: 5, 
+    precio: 860, 
+    stock: 30, 
     categoria: 'Portátiles', 
     imagen: '/images/laptop.jpg' 
   },
   { 
     nombre: 'Dell XPS 15 OLED', 
-    precio: 1899, 
-    stock: 3, 
+    precio: 650, 
+    stock: 45, 
     categoria: 'Portátiles', 
     imagen: '/images/laptop1.jpg' 
   },
   { 
     nombre: 'Asus ROG Zephyrus G14', 
-    precio: 1599, 
-    stock: 4, 
+    precio: 999, 
+    stock: 25, 
     categoria: 'Portátiles', 
     imagen: '/images/ordenador.avif' 
   },
@@ -26,14 +26,14 @@ const CUSTOM_PRODUCTS = [
   // --- Periféricos ---
   { 
     nombre: 'Mouse Inalámbrico Ergonómico', 
-    precio: 49, 
-    stock: 12, 
+    precio: 25, 
+    stock: 20, 
     categoria: 'Periféricos', 
     imagen: '/images/mousse.jpg' 
   },
   { 
     nombre: 'Secador Pro Estudio', 
-    precio: 79, 
+    precio: 50, 
     stock: 8, 
     categoria: 'Periféricos', 
     imagen: '/images/ecouchador.jpg' 
@@ -47,8 +47,8 @@ const CUSTOM_PRODUCTS = [
   },
   { 
     nombre: 'Teclado Mecánico Retroalimentado', 
-    precio: 129, 
-    stock: 7, 
+    precio: 35, 
+    stock:35, 
     categoria: 'Periféricos', 
     imagen: '/images/teclado.avif' 
   },
