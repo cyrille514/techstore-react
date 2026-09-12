@@ -3,7 +3,7 @@ export default function Cart({ cart, onIncrease, onDecrease, onOpenCheckout }) {
 
   return (
     <aside className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 h-fit">
-      <h2 className="text-lg font-bold text-slate-900 mb-4">Carrito de Compras</h2>
+      <h2 className="text-lg bg-yellow-200 font-bold text-violet-600 mb-4">Carrito de Compras</h2>
       
       {cart.length === 0 ? (
         <p className="text-slate-400 text-sm">El carrito está vacío</p>
@@ -31,7 +31,7 @@ export default function Cart({ cart, onIncrease, onDecrease, onOpenCheckout }) {
           
           <div className="pt-4 border-t border-slate-100 space-y-3">
             <div className="flex justify-between font-bold text-slate-900">
-              <span>Total:</span>
+              <span className="text-violet-400" >Total:</span>
               <span className="text-indigo-600">{total} €</span>
             </div>
 
